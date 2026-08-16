@@ -4,9 +4,14 @@ venv/
 __pycache__/
 *.pyc
 
-# Whisper.cpp (large binaries and models — don't commit these)
-whisper.cpp/build/
-whisper.cpp/models/*.bin
+# whisper.cpp: has its own .git folder (from being cloned separately),
+# which makes the outer repo treat it as a broken submodule link instead
+# of real files. Exclude it entirely — README instructions tell users to
+# clone/build it themselves as a separate step.
+whisper.cpp/
+
+# Gradio's internal output folder
+.gradio/
 
 # Generated output files
 transcript.txt
