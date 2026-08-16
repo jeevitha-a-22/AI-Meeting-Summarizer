@@ -1,0 +1,18 @@
+# Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Whisper.cpp (large binaries and models — don't commit these)
+whisper.cpp/build/
+whisper.cpp/models/*.bin
+
+# Generated output files
+transcript.txt
+output.txt
+*.wav
+
+# OS files
+.DS_Store
+Thumbs.db
