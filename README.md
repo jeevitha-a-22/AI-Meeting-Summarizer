@@ -1,4 +1,4 @@
-# AI Meeting Summarizer (Local: Ollama + whisper.cpp)
+# AI Meeting Summarizer (Ollama + whisper.cpp)
 
 ## Overview
 
@@ -6,6 +6,8 @@ This is a fully local, offline-capable meeting summarizer. It converts
 audio recordings of meetings into transcripts using `whisper.cpp`, then
 summarizes them using a locally-running LLM served by `Ollama`. No API
 keys, no billing, no data leaves your machine.
+
+https://github.com/user-attachments/assets/26f1bafe-49cb-4a19-8874-296b0acedab0
 
 ## How It Works
 
